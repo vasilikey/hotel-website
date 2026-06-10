@@ -7,7 +7,7 @@ function Navbar() {
         KALAMATA VIEWS
       </div>
 
-      {/* Navigation Links */}
+      {/* Navigtation Links */}
      <div className="hidden md:flex space-x-8 text-sm font-medium tracking-wider text-slate-600">
   {["HOME", "ROOMS", "AMENITIES", "ABOUT"].map((link) => (
     <a 

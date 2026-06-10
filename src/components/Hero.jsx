@@ -7,7 +7,7 @@ function Hero() {
       className="relative h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
       style={{ 
         // Updated to a stunning high-res view of Kalamata, Greece
-        backgroundImage: `url('https://images.unsplash.com/photo-1600508653246-fc3376bc29fb?auto=format&fit=crop&w=1920&q=80')` 
+        backgroundImage: `url('https://cdn.getyourguide.com/img/location/5a1d572e4a065.jpeg/99.jpg')` 
       }}
     >
       {/* Premium Dark Overlay to keep text perfectly legible */}

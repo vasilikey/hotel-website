@@ -4,7 +4,7 @@ function Navbar() {
   return (
 <nav className="fixed top-0 left-0 w-full bg-white/70 backdrop-blur-md border-b border-slate-100/50 shadow-sm z-50 px-8 py-4 flex justify-between items-center transition-all duration-300 hover:bg-white/90">      {/* Hotel Logo/Name */}
       <div className="text-2xl font-serif font-bold tracking-wide text-slate-800">
-        GRAND HORIZON
+        KALAMATA VIEWS
       </div>
 
       {/* Navigation Links */}

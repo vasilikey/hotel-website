@@ -7,7 +7,7 @@ function Footer() {
         
         {/* Column 1: Brand Statement */}
         <div>
-          <h3 className="text-xl font-serif tracking-widest text-amber-400 mb-4">GRAND HORIZON</h3>
+          <h3 className="text-xl font-serif tracking-widest text-amber-400 mb-4">Kalamata Views</h3>
           <p className="text-sm text-slate-400 leading-relaxed max-w-sm">
             Crafting unforgettable stays where refined architecture meets bespoke hospitality. Your coastal sanctuary awaits.
           </p>
@@ -35,7 +35,7 @@ function Footer() {
 
       {/* Sub-footer Copyright */}
       <div className="max-w-7xl mx-auto pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
-        <p>&copy; {new Date().getFullYear()} Grand Horizon Hotel. Designed with precision.</p>
+        <p>&copy; {new Date().getFullYear()} Kalamata Views Hotel. Designed with precision.</p>
       </div>
     </footer>
   );

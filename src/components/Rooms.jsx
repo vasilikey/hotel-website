@@ -50,7 +50,7 @@ function Rooms() {
         {/* Rooms Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {ROOMS_DATA.map((room) => (
-            <div key={room.id} className="bg-white border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group">
+            <div key={room.id} className="bg-white border border-slate-100 shadow-md hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2 flex flex-col group rounded-sm overflow-hidden">
               
               {/* Image Container with Zoom Effect */}
               <div className="relative overflow-hidden h-64">
@@ -89,9 +89,9 @@ function Rooms() {
                 </div>
 
                 {/* Card CTA Action */}
-                <button className="w-full border border-slate-800 text-slate-800 hover:bg-slate-800 hover:text-white font-medium text-xs tracking-widest uppercase py-3 transition-colors duration-300">
-                  View Details
-                </button>
+                <button className="w-full bg-transparent border border-slate-800 text-slate-800 font-medium text-xs tracking-widest uppercase py-3.5 relative overflow-hidden transition-colors duration-300 group-hover:bg-slate-800 group-hover:text-white">
+  Discover Suite
+</button>
               </div>
 
             </div>
